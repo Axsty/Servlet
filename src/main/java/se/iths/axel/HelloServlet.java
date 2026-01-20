@@ -15,6 +15,6 @@ public class HelloServlet extends HttpServlet {
         String name = (path != null && path.length() > 0)
                 ? path.substring(1)
                 : "";
-        response.getWriter().println("Hello, " + name);
+        response.getWriter().println("Hello " + name + "! Welcome to hell!");
     }
 }
