@@ -9,6 +9,8 @@ public class Main {
         context.addServlet(RootServlet.class, ("/"));
         context.addServlet(HelloServlet.class, ("/hello/*"));
 
+        System.out.println("Halloj!");
+
         server.start();
         server.join();
     }
