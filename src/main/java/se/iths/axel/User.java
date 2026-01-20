@@ -5,6 +5,7 @@ public class User {
     private int age;
     private String name;
     private String email;
+    private int phoneNumber;
 
     public User(int age, String name, String email) {
         this.age = age;
